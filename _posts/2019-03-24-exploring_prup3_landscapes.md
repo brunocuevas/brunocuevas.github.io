@@ -5,7 +5,7 @@ title: Exporing Pru p 3 energy landscapes. My first main-author article
 
 # Exploring Pru P 3 energy landscapes: My first main-author article
 
-![diagram and protein illustration](/assets/figure3.png)
+![diagram and protein illustration](/assets/figure3.png){width:400px;}
 
 
 When I started this blog I thought I would be able to save half an hour every
