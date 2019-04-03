@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ECBS 2019: First day
+title: ECBS, first day
 ---
 
 # ECBS 2019 - First day.
