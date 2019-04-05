@@ -1,0 +1,42 @@
+---
+title: Why you should stop what you are doing and read this book
+layout: post
+---
+
+This post is addressed to scientists, specially in the field of life-science,
+where I work. I am sure that scientists in other fields work in a different
+fashion. If you are a researcher in biology, **you should stop what you are
+doing** and take one day (or two) to read a few chapters (or even all) of
+*Statistics Done Wrong*, by ...
+
+The reason is that you have not been taught about wrong done things. First of
+all, most biologist I know have never paid real attention to their statistics 
+course. And second, even if you have paid attention, it is likely that
+you did not understood it. It is normal. The statistics courses are placed at
+the beggining of the degrees, and when revisited during the last years, they
+take shape of ... subject.
+
+The reason behind, I guess, is that most people attending biology and derivated
+degrees wants to learn about specific and exciting issues: you want to go to
+neurobiology courses, genetic engineering, and bioremediation. There is no
+time to learn a so boring topic as statistics. Even if it is more important
+than all the other subjects.
+
+But none of this is a problem. You could always learn statistics at work,
+during your research. However, you never do. First, your boss may know as
+little statistics as you. Second, you'll never gather time. And third,
+most of the times we do it, we do it wrong.
+
+In *Statistics done wrong* you won't learn to make a t-student test. But it
+will help you understand some concepts that are way more important. I'd
+sumarize them as:
+- Statistics are not a torturing tool
+- Beware of p-values
+- Plan your experiments and the statistics you will apply
+- Beware of high impact journals and exciting results
+
+The author makes a fully detailed tour, with simple examples, and a lot of
+references to published scientific work. And once read, you'll realise
+how important is to do good statistics.
+
+And the best of it. You won't even get bored as you read it.
