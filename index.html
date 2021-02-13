@@ -8,20 +8,21 @@ layout: default
 		<div class="row">
 			<div class="col-sm-8">
 				<h2>Bruno Cuevas</h2>
-				<p>I studied a Bsc in Biotechnology in UPM, then a
-				master in Mathematical Modelling at UAB and now I work at
-				CBGP as phD student.</p>
-				<p>I am currently interested in computational structural
-					biology challenges:
-				<ul>
-					<li>Ligand difussion kinetics</li>
-					<li>Enhanced molecular mechanics sampling</li>
-					<li>Empiric energy methods</li>
-					<li>Electronic density models</li>
-				</ul></p>
+				<p>
+					BSc, MSc, and soon, PhD</p>
+				<p>
+					Hi! Wellcome to my Brunosphere. I am a young scientist working on computational chemistry, where I am pushing
+					state of the art models for electron density reproduction through machine learning. Besides, I
+					actively collaborate with my colleages at Alislab, where I run molecular simulations to understand
+					allergy and I am also working on epidemiological models for plant virus.
+				</p>
+
+				<p>
+					Just so you know: <strong>I am currently looking for a post-doc position</strong>
+				</p>
 			</div>
 			<div class="col-sm-4">
-				<img src="assets/bruno.JPG" alt="" width="300px" class="img-fluid">
+				<img src="assets/profile_pic.png" alt="" width="400px" class="img-fluid">
 			</div>
 		</div>
 
@@ -34,66 +35,31 @@ layout: default
 	<div class="container">
 		<h2>Research</h2>
 
+		<div class="row">
+
+			<div class="col-sm-6">
+				<img src="assets/protein.png" alt="" width="800px" class="img-fluid">
+			</div>
+			
+			<div class="col-sm-6">
+				<p>
+					My main research aims to provide a linear scaling method for electron density computation in large molecules.
+					To do so, we replace the electron structure quantum-mechanics calculations by machine-learning estimations expanded
+					in a linear set of functions. I specifically use neural-networks for this purpose. The result is a new methodology
+					that is currently getting only a 2.5% absolute error in organic molecules, and a similar result in small proteins.
+				</p>
+				<p>
+					This is not over, given that chemistry depends of the smallest variations of the electron structure. I aim to keep working
+					on the physical motivation of the learning process, as well as in the apllication of the model in combination with standard
+					DFT.
+				</p>
+			</div>
+
+
+		</div>
 		<!-- <ul class="Research">
 			<li> -->
-			<div class="card-deck">
-				<div class="card">
-					<div class="card-header bg-primary text-light">
-						<h3>Ligand difussion process</h3>
-					</div>
-					<div class="card-body">
-
-						<img class="card-img-top" src="assets/molecular_dynamics_postal.png" alt="solvated-protein">
-
-						<p>Allergy is nowadays one of the most prevalent diseases
-						in western societies, causing a large number of deaths per
-						year and large costs to health systems.
-						Meanwhile there is a vast knowledge about how to treat  the
-						symptoms of the disease, little is known about sensibilization
-						causes.
-						</p>
-						<p>
-						Last year, out group reported for the first time the proofs of
-						a sensibilization process driven by a ligand transfer process
-						between lipid transport proteins and inmune system receptors.
-						</p>
-						<strong>
-							The computational studies on protein-ligand interactions
-							allow to understand the process driving sensibilization
-						</strong>
-					</div>
-				</div>
-				<div class="card">
-					<div class="card-header bg-primary text-light">
-					<h3>Electron density models</h3>
-					</div>
-					<div class="card-body">
-
-						<img class="card-img-top" src="assets/afa_104.png" alt="electron-density">
-
-						<p>
-							In 1963 Feynman said <q cite="Feynman">Everything
-							that living things do can be understood in terms of the
-							jiggling and wiggling of atoms</q>. Force field methods
-							in structural biology have provided great results by
-							considering biologically interesting systems as sets
-							of atoms joined by springs.
-						</p>
-						<p>
-							However, many biological process can not be targeted
-							using force field methods, and in many cases, the
-							underlying simplification of the atomic structure can be
-							misleading.
-						</p>
-						<strong>
-							We are working in the construction of a electronic
-							density model that can be applied at protein-scale
-							systems without incurring in the huge computational
-							costs of wave-function calculations.
-						</strong>
-					</div>
-				</div>
-			</div>
+			
 	</div>
 
 
@@ -102,13 +68,31 @@ layout: default
 <div id="papers">
 	<div class="container">
 		<h2>Publications</h2>
+		
 		<ul class="Papers">
-			<li><a href="10.3390/molecules23020422">
+			<!-- <li><a href="10.3390/molecules23020422">
 				M. Garrido-Arandia, B. Cuevas-Zuviría, A. Díaz-Perales, and L. Pacios,
 				“A Comparative Study of Human Saposins,” Molecules, vol. 23, no. 2, p. 422, 2018.
-			</a>
-
+			</a> -->
+			<li>
+				Cuevas-Zuviría, B.; Pacios, L. F. Analytical Model of Electron Density and Its Machine Learning Inference. J. Chem. Inf. Model. 2020, 60 (8), 3831–3842. https://doi.org/10.1021/acs.jcim.0c00197.
 			</li>
+			<li>
+				Mínguez-Toral, M., Cuevas-Zuviría, B., Garrido-Arandia, M. et al. A computational structural study on the DNA-protecting role of the tardigrade-unique Dsup protein. Sci Rep 10, 13424 (2020). https://doi.org/10.1038/s41598-020-70431-1
+			</li>
+			<li>
+				Cuevas-Zuviría, B.; Garrido-Arandia, M.; Díaz-Perales, A.; Pacios, L. F. Energy Landscapes of Ligand Motion Inside the Tunnel-Like Cavity of Lipid Transfer Proteins: The Case of the Pru p 3 Allergen. Int. J. Mol. Sci. 2019. https://doi.org/10.3390/ijms20061432.
+			</li>
+			<li>
+				Garrido-Arandia, M.; Cuevas-Zuviría, B.; Díaz-Perales, A.; Pacios, L. A Comparative Study of Human Saposins. Molecules 2018, 23 (2), 422. https://doi.org/10.3390/molecules23020422.
+			</li>
+			<li>
+				Cuevas-Zuviría, B.; Mínguez-Toral, M.; Díaz-Perales, A.; Garrido-Arandia, M.; Pacios, L. F. Dynamic Plasticity of the Lipid Antigen-Binding Site of CD1d Is Crucially Favoured by Acidic PH and Helper Proteins. Sci. Rep. 2020, 10 (1), 1–16. https://doi.org/10.1038/s41598-020-62833-y.
+			</li>
+			<li>
+				Cuevas-Zuviría, B.; Mínguez-Toral, M.; Díaz-Perales, A.; Garrido-Arandia, M.; Pacios, L. F. Structural Dynamics of the Lipid Antigen-Binding Site of Cd1d Protein. Biomolecules 2020, 10 (4). https://doi.org/10.3390/biom10040532.
+			</li>
+
 		</ul>
 	</div>
 

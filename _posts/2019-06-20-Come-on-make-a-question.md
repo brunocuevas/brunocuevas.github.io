@@ -1,6 +1,6 @@
 ---
 layout: post
-title: come on make a question
+title: NN and representation engineering
 ---
 
 # Come on! Make a question!
